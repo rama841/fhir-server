@@ -12,7 +12,7 @@ In order to use this sample, you should have:
 - Oracle Java (JDK) installed: Minimum JDK8 or newer.
 - Apache Maven build tool (newest version)
 
-## Running locally
+## Running locally at 8080
 
 The easiest way to run this server is to run it directly in Maven using a built-in Jetty server. To do this, change `src/main/resources/hapi.properties` `server_address` and `server.base` with the values commented out as _For Jetty, use this_ and then execute the following command:
 
@@ -32,7 +32,7 @@ mvn -Djetty.port=8888 jetty:run
 
 And replacing 8888 with the port of your choice.
 
-## Configurations
+## Configurations 
 
 Much of this HAPI starter project can be configured using the properties file in _src/main/resources/hapi.properties_. By default, this starter project is configured to use Derby as the database.
 
